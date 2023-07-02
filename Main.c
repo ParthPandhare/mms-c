@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 #include "API.h"
+#include "queue.h"
+
 
 void log(char* text) {
     fprintf(stderr, "%s\n", text);
